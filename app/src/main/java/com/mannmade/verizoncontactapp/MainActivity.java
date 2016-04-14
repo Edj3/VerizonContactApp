@@ -17,6 +17,8 @@ Please Note:
 - Single clicking a contact will allow you to edit
 - Long clicking a contact will delete the contact and refresh the list automatically for you
 - This program allows you to enter a blank contact (if this is undesired, please use delete to remove your contact
+- I used a singleton for the list for universal access (I did not want to persist the list forever as it was not a requirement).
+- To persist the list, I would have used Sharedpreferences or an SQL lite database
  */
 
 public class MainActivity extends AppCompatActivity {
