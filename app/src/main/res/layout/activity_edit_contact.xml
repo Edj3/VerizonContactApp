@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.mannmade.verizoncontactapp.EditContactActivity">
+
+    <EditText android:id="@+id/first_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText android:id="@+id/last_name_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:layout_below="@+id/first_name_edit"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText android:id="@+id/photo_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/photo_url"
+        android:layout_below="@+id/last_name_edit"
+        android:layout_centerHorizontal="true"/>
+
+    <Button android:id="@+id/save_button"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_changes"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
